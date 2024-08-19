@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>IYK.ResultPattern</PackageId>
+    <Title>My Result Pattern</Title>
+    <Version>8.0.0</Version>
+    <Authors>İsa Yasin Kuru</Authors>
+    <Company>IYK Tech</Company>
+    <Product>IYK.ResultPattern</Product>
+    <Description>A nuget packet that encapsulates successful and unsuccessful HTTP requests.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENCE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Result ExceptionHandler</PackageTags>
+    <PackageReleaseNotes>Result package created.</PackageReleaseNotes>
+    <PackAsTool>True</PackAsTool>
+    <ToolCommandName>IYK.ResultPattern</ToolCommandName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENCE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
