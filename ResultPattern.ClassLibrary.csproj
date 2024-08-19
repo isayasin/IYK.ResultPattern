@@ -22,6 +22,7 @@
     <PackageReleaseNotes>Result package created.</PackageReleaseNotes>
     <PackAsTool>True</PackAsTool>
     <ToolCommandName>IYK.ResultPattern</ToolCommandName>
+    <RepositoryUrl>https://github.com/isayasin/IYK.ResultPattern</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
